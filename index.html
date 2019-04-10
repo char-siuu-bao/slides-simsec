@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/simsec.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<section>
+						<h1>This is a presentation title.</h1>
+						<h3>This is a presentation subtitle.</h3>
+						<img style="position:absolute; width:30%; left: 0px; top:110%;" src="img/simsec-white-logo.png">
+					</section>
+
+					<section data-background="#FAF7F2">
+							<h2>This is a content slide</h2>
+							<ul>
+							<li>This is a supporting idea.</li>
+							<li>This is another supporting idea.</li>
+							<li>And another.</li>
+						</ul>
+						</section>
+
+						<section data-background="#FAF7F2">
+								<h2>This is a second content slide</h2>
+								<ul>
+								<li>This is a supporting idea.</li>
+								<li>This is another supporting idea.</li>
+								<li>And another.</li>
+							</ul>
+							</section>
+
+							<section>
+									<h2>This is a section divider.</h2>
+								</section>
+
+								<section data-background="#FAF7F2">
+										<h4>This is  slide with an image.</h4>
+										<img style="width:70%;" src="img/stockimage_simsec.jpg">
+									</section>
+
+								<section data-background="#FAF7F2">
+											<h4>Here's a worksheet activity.</h4>
+											<img style="width:70%;" src="img/valueprop.png">
+								</section>
+
+								<section data-background="#FAF7F2">
+										<img src="img/simplysecure-logotab.png" width=15% align="left" style ="padding: 0 35px">
+											<h2>Get in touch!</h2>
+											<p> @simplysecureorg </p>
+											<p> contact@simplysecure.org</p>
+
+								</section>
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
